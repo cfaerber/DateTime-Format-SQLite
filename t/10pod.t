@@ -1,4 +1,4 @@
-# $Id: 10pod.t 78 2008-09-13 10:12:34Z cfaerber $
+# $Id$
 
 use strict;
 use Test::More;
