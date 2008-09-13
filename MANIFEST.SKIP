@@ -1,7 +1,0 @@
-^_build
-(^|/)blib
-CVS
-^Build$
-~$
-^MANIFEST\.SKIP$
-^Makefile$
