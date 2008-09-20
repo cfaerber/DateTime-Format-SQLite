@@ -115,6 +115,8 @@ sub format_julianday
 
 __END__
 
+=encoding utf8
+
 =head1 NAME
 
 DateTime::Format::SQLite - Parse and format SQLite dates and times
