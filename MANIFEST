@@ -10,3 +10,4 @@ t/11pod_cover.t
 t/withsqlite.t
 t/format.t
 t/parse.t
+SIGNATURE

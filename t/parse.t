@@ -1,7 +1,5 @@
 # $Id$
 #
-# $Id$
-#
 use strict;
 use warnings;
 
