@@ -28,3 +28,13 @@ WriteMakefile(
         },
     ),
 );
+
+sub MY::postamble {
+return <<EOF
+release: release-cpan
+
+release-cpan:
+	cpan-upload \$(DISTVNAME).tar\$(SUFFIX)
+
+EOF
+}
