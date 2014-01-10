@@ -27,6 +27,17 @@ WriteMakefile(
 #	    'recommends'    => { 'perl'	=> 5.008003, },
         },
     ),
+    
+    META_MERGE => {
+        'meta-spec' => { version => 2 },
+        resources => {
+            repository => {
+                type => 'git',
+                url => 'https://github.com/cfaerber/DateTime-Format-SQLite.git',
+                web => 'https://github.com/cfaerber/DateTime-Format-SQLite',
+            },
+        },
+    },
 );
 
 sub MY::postamble {
