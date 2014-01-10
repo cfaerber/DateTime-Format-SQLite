@@ -193,25 +193,25 @@ C<format_I<*>> functions.
 
 =item * format_date($datetime)
 
-Given a C<DateTime> object, this methods returnes a string in the
+Given a C<DateTime> object, this methods returns a string in the
 format YYYY-MM-DD, i.e. in the same format SQLite's C<date>
 function uses.
 
 =item * format_time($datetime)
 
-Given a C<DateTime> object, this methods returnes a string in the
+Given a C<DateTime> object, this methods returns a string in the
 format HH:MM:SS, i.e. in the same format SQLite's C<time>
 function uses.
 
 =item * format_datetime($datetime)
 
-Given a C<DateTime> object, this methods returnes a string in the
+Given a C<DateTime> object, this methods returns a string in the
 format YYYY-MM-DD HH:MM:SS, i.e. in the same format SQLite's C<datetime>
 function uses.
 
 =item * format_julianday($datetime)
 
-Given a C<DateTime> object, this methods returnes a string in the
+Given a C<DateTime> object, this methods returns a string in the
 format DDDDDDDDDD, i.e. in the same format SQLite's C<julianday>
 function uses.
 
